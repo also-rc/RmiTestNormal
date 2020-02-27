@@ -4,7 +4,7 @@ import java.rmi.*;
 public class Servidor {
     public Servidor() {
 
-        System.setProperty("java.rmi.server.hostname", "25.9.254.95");//IP de mi servicio
+        System.setProperty("java.rmi.server.hostname", "25.9.254.95");//IP de mi servicio 
 
         InterfaceRemota objetoRemoto;
         try{
